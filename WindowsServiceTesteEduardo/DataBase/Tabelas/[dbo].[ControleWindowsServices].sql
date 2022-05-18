@@ -1,0 +1,12 @@
+USE WINDOWSSERVICESTesteEduardo
+GO
+IF(EXISTS(SELECT 1 FROM sys.objects WHERE name='ControleWindowsServices' AND type='U' AND schema_id=SCHEMA_ID('dbo')))
+	DROP TABLE [dbo].[ControleWindowsServices]
+GO
+CREATE TABLE [dbo].[ControleWindowsServices]
+(
+	Id BIGINT IDENTITY PRIMARY KEY,
+	NMSERVICO VARCHAR(1000),
+	NMMAQUINA VARCHAR(1000),
+	DTULTIMAEXECUCAO VARCHAR(200)
+)

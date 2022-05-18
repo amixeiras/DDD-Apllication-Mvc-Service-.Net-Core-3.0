@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\dielboteste.js" />
+    <None Include="wwwroot\lib\bootstrap\bootstrap-theme.min.css" />
+    <None Include="wwwroot\lib\bootstrap\bootstrap.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.dataTables.js" />
+    <None Include="wwwroot\lib\jquery\jquery.dataTables.css" />
+    <None Include="wwwroot\lib\jquery\jquery.dataTables.min.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Service.Test\Domain.Service.Test.csproj" />
+    <ProjectReference Include="..\Services.Service.Test\Services.Service.Test.csproj" />
+  </ItemGroup>
+
+</Project>
