@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zx3p7gdXOtIEN7pGFCb+fRoc+ahv1+Rz9uL1qB2CBGfZnKCwujPYY/b+duXwGfOqxuVTYJpacJNRZwAWDiL5xw==",
+  "dgSpecHash": "sQdGNrhFLwHZGa6H1Rg+dE0ZIBGGRJeom7YexuUnar5xz8Sp9SY7BBwcYYEiYPmZSDVNGSHWnqTqh6II6enS9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Infra.Service.test\\Infra.Service.test.csproj",
+  "projectFilePath": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Web.Service.Teste\\Web.Service.Teste.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mixa_\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\mixa_\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

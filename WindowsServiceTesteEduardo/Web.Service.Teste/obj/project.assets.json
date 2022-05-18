@@ -293,6 +293,20 @@
         "runtime": {
           "bin/placeholder/Infra.Service.test.dll": {}
         }
+      },
+      "Services.Service.Test/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Domain.Service.Test": "1.0.0",
+          "Infra.Service.test": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.Service.Test.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Service.Test.dll": {}
+        }
       }
     }
   },
@@ -865,12 +879,17 @@
       "type": "project",
       "path": "../Infra.Service.test/Infra.Service.test.csproj",
       "msbuildProject": "../Infra.Service.test/Infra.Service.test.csproj"
+    },
+    "Services.Service.Test/1.0.0": {
+      "type": "project",
+      "path": "../Services.Service.Test/Services.Service.Test.csproj",
+      "msbuildProject": "../Services.Service.Test/Services.Service.Test.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Domain.Service.Test >= 1.0.0",
-      "Infra.Service.test >= 1.0.0"
+      "Services.Service.Test >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -880,11 +899,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Services.Service.Test\\Services.Service.Test.csproj",
-      "projectName": "Services.Service.Test",
-      "projectPath": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Services.Service.Test\\Services.Service.Test.csproj",
+      "projectUniqueName": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Web.Service.Teste\\Web.Service.Teste.csproj",
+      "projectName": "Web.Service.Teste",
+      "projectPath": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Web.Service.Teste\\Web.Service.Teste.csproj",
       "packagesPath": "C:\\Users\\mixa_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Services.Service.Test\\obj\\",
+      "outputPath": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Web.Service.Teste\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -910,8 +929,8 @@
             "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Domain.Service.Test\\Domain.Service.Test.csproj": {
               "projectPath": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Domain.Service.Test\\Domain.Service.Test.csproj"
             },
-            "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Infra.Service.test\\Infra.Service.test.csproj": {
-              "projectPath": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Infra.Service.test\\Infra.Service.test.csproj"
+            "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Services.Service.Test\\Services.Service.Test.csproj": {
+              "projectPath": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Services.Service.Test\\Services.Service.Test.csproj"
             }
           }
         }
@@ -936,6 +955,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

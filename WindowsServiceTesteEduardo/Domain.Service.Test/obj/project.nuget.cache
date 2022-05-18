@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zecB94HqbZEkE3nyE+vXq7TuCzKx5DEf/U3VxD+AaR9RtRfj//Wxjy458ykDuOKZZ/P9ZoE866Omb6ma0uwpZQ==",
+  "dgSpecHash": "+M2HYJjJXIVBP4FpchjEEw4zTcUzTBNmERaVca1eB0A9oCNnjqowQnrVVjhCKem8iDnplgfziXTqwPeIgIOuBA==",
   "success": true,
-  "projectFilePath": "C:\\TesteDielbo\\WindowsServiceTesteEduardo\\Domain.Service.Test\\Domain.Service.Test.csproj",
+  "projectFilePath": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Domain.Service.Test\\Domain.Service.Test.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

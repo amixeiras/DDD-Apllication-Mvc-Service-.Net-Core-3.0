@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TesteDielbo\\WindowsServiceTesteEduardo\\Domain.Service.Test\\Domain.Service.Test.csproj",
+      "projectUniqueName": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Domain.Service.Test\\Domain.Service.Test.csproj",
       "projectName": "Domain.Service.Test",
-      "projectPath": "C:\\TesteDielbo\\WindowsServiceTesteEduardo\\Domain.Service.Test\\Domain.Service.Test.csproj",
+      "projectPath": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Domain.Service.Test\\Domain.Service.Test.csproj",
       "packagesPath": "C:\\Users\\mixa_\\.nuget\\packages\\",
-      "outputPath": "C:\\TesteDielbo\\WindowsServiceTesteEduardo\\Domain.Service.Test\\obj\\",
+      "outputPath": "C:\\Users\\mixa_\\OneDrive\\Documentos\\GitHub\\DDD-Apllication-Mvc-Service-.Net-Core-3.0\\WindowsServiceTesteEduardo\\Domain.Service.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

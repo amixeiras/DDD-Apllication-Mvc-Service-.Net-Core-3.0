@@ -24,7 +24,7 @@ namespace AppServiceTest
             //Injeção de dependencia
             controleWinServices = _controleWinServices;
             //Inicialização do timer
-            _timer = new Timer(1000) { AutoReset = true };
+            _timer = new Timer(60000) { AutoReset = true };
             _timer.Elapsed += (sender, eventArgs) => Execute();
         }
         public void Start()
