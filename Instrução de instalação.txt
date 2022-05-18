@@ -1,0 +1,4 @@
+build projeto
+Copiar para pasta local
+Editar os arquivos Batch de instalação e desinstalação 
+Com o caminho das DLL do serviço publicado
